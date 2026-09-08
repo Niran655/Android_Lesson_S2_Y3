@@ -1,4 +1,5 @@
-# ផ្នែកទី ១៖ ខ្លឹមសារមេរៀនលម្អិត (Lesson Contents)
+# Chapter3: Basic UI Component and Event Handling
+## ផ្នែកទី ១៖ ខ្លឹមសារមេរៀនលម្អិត (Lesson Contents)
 
 ### ១. និយមន័យគ្រឹះនៃ Views និង Layouts
 *   **Layout (ប្លង់):** គឺជាអ្នកកំណត់រចនាសម្ព័ន្ធសម្រាប់ User Interface (UI) នៅក្នុងកម្មវិធី ដូចជាការកំណត់ទម្រង់នៅក្នុង Activity។
@@ -81,7 +82,7 @@
 
 ---
 
-# ផ្នែកទី ២៖ កូដគំរូសំខាន់ៗ (Key Code Snippets)
+## ផ្នែកទី ២៖ កូដគំរូសំខាន់ៗ (Key Code Snippets)
 
 ### ១. LinearLayout គំរូ (XML)
 *   **Horizontal Layout (ជួរដេក)៖**
@@ -219,7 +220,7 @@ snackbar.show();
 
 ---
 
-# ផ្នែកទី ៣៖ កម្រងសំណួរ និងលំហាត់សម្រាប់ប្រឡង (Exam Questions)
+## ផ្នែកទី ៣៖ កម្រងសំណួរ និងលំហាត់សម្រាប់ប្រឡង (Exam Questions)
 
 ## ប្រភេទទី ១៖ សំណួរជ្រើសរើសចម្លើយ (Multiple Choice Questions)
 
