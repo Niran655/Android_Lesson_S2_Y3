@@ -122,4 +122,4 @@ public class MainActivity extends AppCompatActivity {
 
 ```
 
-ត
+តើអ្នកចង់ឱ្យខ្ញុំបន្ថែមលម្អិតលើប្រធានបទ Lifecycle របស់ Activity ឬការផ្លាស់ប្តូរ Screen (Intent & Bundle) ដែរឬទេ?
