@@ -1,4 +1,4 @@
-# Chapter 3: Basic UI Component and Event Handling
+# Chapter3: Basic UI Component and Event Handling
 ## ផ្នែកទី ១៖ ខ្លឹមសារមេរៀនលម្អិត (Lesson Contents)
 
 ### ១. និយមន័យគ្រឹះនៃ Views និង Layouts
