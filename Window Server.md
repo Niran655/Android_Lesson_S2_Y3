@@ -332,3 +332,162 @@ PAUSE
 4. ប្រព័ន្ធនឹងទាមទារការផ្ទៀងផ្ទាត់ -> វាយបញ្ចូល Username និង Password របស់ Domain Administrator។
 5. បន្ទាប់ពីបង្ហាញសារ **"Welcome to the srv.world domain"** ចុច [OK] រួចធ្វើការ **Restart កុំព្យូទ័រ**។
 6. ពេល Logon ឡើងវិញ ជ្រើសយក **"Other user"** រួចវាយបញ្ចូល Domain User Account ដែលបានបង្កើតក្នុង AD ដើម្បី Sign-in ចូលប្រើប្រាស់។
+
+កម្រងសំណួរ និងចម្លើយសម្រាប់រៀបចំមេរៀន និងការប្រឡងមុខវិជ្ជា **Windows Server & Network Administration** ត្រូវ​បាន​រៀបចំ​ឡើង​យ៉ាង​លម្អិត ដោយ​បែងចែក​ជាសំណួរជ្រើសរើសចម្លើយ (MCQs) សំណួរទ្រឹស្តីទូទៅ និងសំណួរអនុវត្តប្រព័ន្ធ/ពាក្យបញ្ជា (Commands & Practical Configs)៖
+
+---
+
+# ផ្នែកទី ១៖ សំណួរជ្រើសរើសចម្លើយ (Multiple Choice Questions - MCQs)
+
+**សំណួរ ១៖ តើអាជ្ញាប័ណ្ណសាកល្បង (Evaluation Version) របស់ Windows Server 2016 អនុញ្ញាតឱ្យប្រើប្រាស់បានរយៈពេលប៉ុន្មានថ្ងៃ?**
+- A. ៩០ ថ្ងៃ
+- B. ១២០ ថ្ងៃ
+- C. ១៨០ ថ្ងៃ
+- D. ៣៦៥ ថ្ងៃ
+* **ចម្លើយត្រឹមត្រូវ៖ C** (យោងតាមប្រភព)
+
+**សំណួរ ២៖ ប្រសិនបើអ្នកចង់ដំឡើង Windows Server 2016 ថ្មីស្រឡាង (Clean Installation) លើ Hard Disk តើត្រូវជ្រើសរើសជម្រើសដំឡើងមួយណា?**
+- A. Upgrade: Install Windows and keep files
+- B. Custom: Install Windows only (advanced)
+- C. Express Installation
+- D. Typical Installation
+* **ចម្លើយត្រឹមត្រូវ៖ B** (យោងតាមប្រភព)
+
+**សំណួរ ៣៖ តើក្រុម (Group) មួយណាដែលផ្តល់សិទ្ធិគ្រប់គ្រងជាន់ខ្ពស់បំផុត (Administrative Privilege) ដល់ User នៅក្នុង Windows Server?**
+- A. Power Users
+- B. Remote Desktop Users
+- C. Domain Users
+- D. Administrators
+* **ចម្លើយត្រឹមត្រូវ៖ D** (យោងតាមប្រភព)
+
+**សំណួរ ៤៖ តើ Firewall របស់ Windows Server បិទ (Block) Protocol មួយណាជាលំនាំដើម ដែលធ្វើឱ្យមិនអាចប្រើបញ្ជា `ping` ជួប Server បាន?**
+- A. TCP
+- B. UDP
+- C. ICMP (ICMPv4)
+- D. HTTP
+* **ចម្លើយត្រឹមត្រូវ៖ C** (យោងតាមប្រភព)
+
+**សំណួរ ៥៖ តើសេវាកម្ម NTP (Network Time Protocol) ប្រើប្រាស់ Protocol និង Port មួយណាសម្រាប់ការធ្វើ Time Synchronization?**
+- A. TCP Port 22
+- B. UDP Port 123
+- C. TCP Port 3389
+- D. UDP Port 53
+* **ចម្លើយត្រឹមត្រូវ៖ B** (យោងតាមប្រភព)
+
+**សំណួរ ៦៖ នៅក្នុងបរិស្ថាន Active Directory Domain តើកុំព្យូទ័រ Client និង Member Servers ធ្វើ Time Sync ជាមួយឧបករណ៍មួយណាជាលំនាំដើម?**
+- A. `time.windows.com`
+- B. Local Hardware Clock (CMOS)
+- C. Domain Controller (DC) ដែលពួកវា Log in ចូល
+- D. Router Default Gateway
+* **ចម្លើយត្រឹមត្រូវ៖ C** (យោងតាមប្រភព)
+
+**សំណួរ ៧៖ ដើម្បីពង្រឹងសុវត្ថិភាព SSH Key-Pair Authentication លើ OpenSSH Server តើត្រូវប្រើបញ្ជា `icacls` អ្វីដើម្បីដកសិទ្ធិ Everyone ចេញពីឯកសារ `authorized_keys`?**
+- A. `icacls authorized_keys /grant Everyone`
+- B. `icacls authorized_keys /remove Everyone`
+- C. `icacls authorized_keys /delete`
+- D. `icacls authorized_keys /deny Everyone`
+* **ចម្លើយត្រឹមត្រូវ៖ B** (យោងតាមប្រភព)
+
+**សំណួរ ៨៖ តើកម្មវិធី Client ស្ដង់ដាររបស់ Windows សម្រាប់ភ្ជាប់ Remote Desktop Session (RDP) មានឈ្មោះអ្វី?**
+- A. `putty`
+- B. `mstsc`
+- C. `cmd`
+- D. `powershell`
+* **ចម្លើយត្រឹមត្រូវ៖ B** (យោងតាមប្រភព)
+
+**សំណួរ ៩៖ តើមុខងារ Remote Desktop Services (RDS) Role មួយណាដែលធ្វើជាស្ពានចម្លង និងតម្រង់ទិស (Broker/Redirect) នូវការតភ្ជាប់របស់ Clients ទៅកាន់ RemoteApp ឬ Virtual Desktops?**
+- A. RD Web Access
+- B. RD Session Host
+- C. RD Connection Broker
+- D. RD Licensing
+* **ចម្លើយត្រឹមត្រូវ៖ C** (យោងតាមប្រភព)
+
+**សំណួរ ១០៖ តើ Zone ប្រភេទណាស្វ័យប្រវត្តិក្នង DNS ដែលប្រើសម្រាប់បកប្រែពី IP Address ទៅជា Hostname (FQDN)?**
+- A. Forward Lookup Zone
+- B. Reverse Lookup Zone
+- C. Stub Zone
+- D. Primary Zone
+* **ចម្លើយត្រឹមត្រូវ៖ B** (យោងតាមប្រភព)
+
+---
+
+# ផ្នែកទី ២៖ សំណួរទ្រឹស្តីទូទៅ និងការយល់ដឹង (Theoretical & Conceptual Questions)
+
+**សំណួរ ១៖ តើអ្វីជាភាពខុសគ្នារវាង Workgroup Environment និង Active Directory Domain Environment?**
+* **ចម្លើយ៖**
+  * **Workgroup (Peer-to-Peer):** គឺជាបណ្តាញដែលកុំព្យូទ័រនីមួយៗគ្រប់គ្រងសមត្ថកិច្ច និង User Accounts ដោយខ្លួនឯង (Local Security Database)។ គ្មាន Server កណ្តាលសម្រាប់គ្រប់គ្រងសិទ្ធិឡើយ។
+  * **Active Directory Domain:** គឺជាប្រព័ន្ធគ្រប់គ្រងកណ្តាល (Centralized Administration) ដែលមាន **Domain Controller (DC)** ផ្ទុកទិន្នន័យ Active Directory Database (AD DS)។ រាល់ Accounts, Computers, គោលការណ៍សុវត្ថិភាព (Group Policy), និងសិទ្ធិប្រើប្រាស់ធនធានទាំងអស់ត្រូវបានគ្រប់គ្រង និងផ្ទៀងផ្ទាត់ពីចម្ងាយចេញពី Server កណ្តាលតែមួយ។
+
+**សំណួរ ២៖ តើអ្វីទៅជាតួនាទីរបស់ DNS Server នៅក្នុងប្រព័ន្ធ Active Directory?**
+* **ចម្លើយ៖** DNS Server មានតួនាទីយ៉ាងសំខាន់ និងជាលក្ខខណ្ឌតម្រូវចាំបាច់សម្រាប់ Active Directory៖
+  1. **Name Resolution:** បកប្រែឈ្មោះ Hostname/Domain (ដូចជា `srv.world`) ទៅជា IP Address។
+  2. **Service Location (SRV Records):** ជួយឱ្យកុំព្យូទ័រ Clients ស្វែងរកទីតាំងរបស់ Domain Controllers (DC), Kerberos Authentication Services, និង LDAP Services នៅក្នុងបណ្តាញ។
+
+**សំណួរ ៣៖ ចូរសារពើភ័ណ្ឌ និងពន្យល់ពីប្រភេទត្រា DNS (Resource Records) សំខាន់ៗ៖ A Record, PTR Record, MX Record, និង CNAME Record។**
+* **ចម្លើយ៖**
+  * **A Record (Host):** ត្រាសម្រាប់ភ្ជាប់ Hostname (IPv4) ទៅកាន់ IP Address នៅក្នុង Forward Lookup Zone។
+  * **PTR Record (Pointer):** ត្រាសម្រាប់ភ្ជាប់ IP Address ទៅកាន់ Hostname នៅក្នុង Reverse Lookup Zone។
+  * **MX Record (Mail Exchanger):** ត្រាកំណត់ Hostname របស់ Mail Server ដែលទទួលខុសត្រូវលើការផ្ញើ/ទទួល Email ក្នុង Domain។
+  * **CNAME Record (Canonical Name):** ត្រាកំណត់ឈ្មោះជំនួស (Alias Name) ទៅឱ្យ Hostname (A Record) ដែលមានស្រាប់ (ឧទាហរណ៍ `www` ចង្អុលទៅ `fd3s.srv.world`)។
+
+**សំណួរ ៤៖ តើអ្វីជាប្រយោជន៍នៃការប្រើប្រាស់ DHCP Server នៅក្នុងបណ្តាញសាជីវកម្ម (Enterprise Network)?**
+* **ចម្លើយ៖** DHCP Server (Dynamic Host Configuration Protocol) ជួយសម្រួលដល់ការគ្រប់គ្រង IP Address ដោយ៖
+  1. ចែករំលែក ឬជួល IP Address, Subnet Mask, Default Gateway, និង DNS Server ទៅឱ្យ Clients ដោយស្វ័យប្រវត្តិ។
+  2. ការពារការជាន់ IP Address គ្នា (IP Conflict)។
+  3. កាត់បន្ថយពេលវេលា និងកំហុសឆ្គងពីការកំណត់ IP ដោយដៃលើកុំព្យូទ័រ Clients រាប់រយម៉ាស៊ីន។
+
+**សំណួរ ៥៖ តើអ្វីទៅជា RemoteApp នៅក្នុង Remote Desktop Services (RDS) ហើយវាខុសពី Full Remote Desktop យ៉ាងដូចម្តេច?**
+* **ចម្លើយ៖** 
+  * **RemoteApp:** អនុញ្ញាតឱ្យសហគ្រាសប្រកាសផ្សាយ (Publish) តែបង្អួចកម្មវិធីជាក់លាក់ (ឧទាហរណ៍ `Server Manager` ឬ `Excel`) ឱ្យ Users ដំណើរការ។ កម្មវិធីនោះនឹងរ៉ាន់នៅលើ Server ប៉ុន្តែបង្ហាញរូបរាងដូចជាកម្មវិធីដំឡើងលើម៉ាស៊ីន Client ផ្ទាល់ (មិនបង្ហាញផ្ទាំង Desktop ទាំងមូលរបស់ Server ឡើយ)។
+  * **Full Remote Desktop:** បង្ហាញអេក្រង់ និងផ្ទាំង Desktop ទាំងមូលរបស់ Server ទៅឱ្យ User។
+
+---
+
+# ផ្នែកទី ៣៖ សំណួរអនុវត្តជាក់ស្តែង និងពាក្យបញ្ជា (Commands & Practical Scenarios)
+
+**សំណួរ ១៖ ចូរសរសេរពាក្យបញ្ជា PowerShell សម្រាប់កំណត់ឱ្យ Windows Server ដំណើរការជា NTP Server និងបើក Firewall Port 123/UDP។**
+* **ចម្លើយ៖**
+  ```powershell
+  # 1. បើកមុខងារ NTP Server ក្នុង Registry
+  Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\w32time\TimeProviders\NtpServer" -Name "Enabled" -Value 1
+
+  # 2. កំណត់សញ្ញាព្រមាន AnnounceFlags ស្មើ 5 (Reliable Time Server)
+  Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\services\W32Time\Config" -Name "AnnounceFlags" -Value 5
+
+  # 3. Restart សេវាកម្ម Windows Time
+  Restart-Service w32Time
+
+  # 4. បង្កើត Inbound Firewall Rule សម្រាប់ Port 123/UDP
+  New-NetFirewallRule -Name "NTP Server Port" -DisplayName "NTP Server Port" -Description 'Allow NTP Server Port' -Profile Any -Direction Inbound -Action Allow -Protocol UDP -LocalPort 123
+  ```
+  *(យោងតាមប្រភព)*
+
+**សំណួរ ២៖ ចូរសរសេរកូដ Batch Script (`.bat`) សម្រាប់បង្កើត Users ច្រើនក្នុងពេលតែមួយ (Batch User Creation) ចូលទៅកាន់ Active Directory ដោយទាញយកឈ្មោះពីឯកសារ `users.txt`។**
+* **ចម្លើយ៖**
+  ```batch
+  @echo off
+  set USERLIST=users.txt
+  set OU=OU=Development01,OU=Hiroshima
+  set DC=DC=srv,DC=world
+  for /f "tokens=1,2" %%i in (%USERLIST%) do (
+  dsadd user CN=%%i,%OU%,%DC% -pwd %%i%%j -mustchpwd yes ^
+  -ln %%i -fn %%j -email %%i@srv.world -display "%%i %%j"
+  )
+  PAUSE
+  ```
+  *(យោងតាមប្រភព)*
+
+**សំណួរ ៣៖ ប្រសិនបើការរ៉ាន់ Batch Script បង្កើត Users ខាងលើត្រូវជួបបរាជ័យ ដោយសារគោលការណ៍ពាក្យសម្ងាត់ស្មុគស្មាញ (Password Complexity Policy) តើត្រូវដោះស្រាយដូចម្តេច?**
+* **ចម្លើយ៖** 
+  1. បើក **Group Policy Management** (`gpmc.msc`) -> ចុចស្តាំលើ **Default Domain Policy** -> ជ្រើសយក **Edit**។
+  2. ចូលទៅកាន់៖ `Computer Configuration` -> `Policies` -> `Windows Settings` -> `Security Settings` -> `Account Policies` -> `Password Policy`។
+  3. បើកកំណត់ **Password must meet complexity requirements** ទៅជា **Disabled** បណ្តោះអាសន្ន។
+  4. រ៉ាន់ Batch Script ដើម្បីបន្ថែម Users រួចត្រឡប់មកបើក **Enabled** គោលការណ៍សុវត្ថិភាពនេះវិញជាការស្រេច។
+
+**សំណួរ ៤៖ ចូរបង្ហាញពាក្យបញ្ជា PowerShell សម្រាប់ផ្លាស់ប្តូរ Default Shell របស់ OpenSSH ពី Command Prompt (`cmd.exe`) ទៅជា PowerShell (`powershell.exe`)។**
+* **ចម្លើយ៖**
+  ```powershell
+  New-ItemProperty -Path "HKLM:\SOFTWARE\OpenSSH" -Name DefaultShell -Value "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -PropertyType String -Force
+  ```
+  *(យោងតាមប្រភព)*
+ 
