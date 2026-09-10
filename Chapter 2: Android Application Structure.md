@@ -189,6 +189,7 @@ D. `values-khmer`
     </resources>
     ```
 
+
 **លំហាត់ ២ (Java Code - Resource Accessing):** ចូរសរសេរកូដ Java មួយបន្ទាត់ដើម្បីទាញយកតម្លៃអក្សរពី `strings.xml` ដែលមាន ID `@string/welcome_msg` មកដាក់ក្នុង Variable ប្រភេទ String ឈ្មោះថា `welcomeText`។
 *   **ចម្លើយ៖**
     ```java
